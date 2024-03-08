@@ -33,4 +33,22 @@ console.log(b)
 // const
 const c = 25;
 // c = 26; // We can't do this
-console.log(c)
+console.log(c);
+
+// Scoping
+
+// We can redeclare or initialize same variable name in different block scopes
+{
+  var a = 24;
+  console.log(a);
+}
+
+{
+  let b = 23;
+  console.log(b);
+}
+
+{
+  const c = 25;
+  console.log(c);
+}
