@@ -69,3 +69,28 @@ var counter = 1;
 // console.log(age);
 // const age = 1;
 
+// Blocking and Non-Blocking in JS
+
+// Blocking code example
+function blockingOperation() {
+  for (let i = 0; i < 1000000000; i++) {
+      // console.log(i)
+  }
+  console.log("Blocking operation completed");
+}
+
+console.log("Before blocking operation");
+blockingOperation();
+console.log("After blocking operation");
+
+// Non-blocking code example
+function nonBlockingOperation() {
+  setTimeout(() => {
+      console.log("Non-blocking operation completed");
+  }, 2000);
+}
+
+console.log("Before non-blocking operation");
+nonBlockingOperation();
+console.log("After non-blocking operation");
+
