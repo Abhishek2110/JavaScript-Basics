@@ -15,3 +15,22 @@ const divide = function (x, y) {
     return x / y;
   };
 console.log(divide(21, 7))
+
+// Variables in JS
+
+// var
+var a = 21;
+var a = "Abhishek";
+a = 24;
+console.log(a)
+
+// let
+let b = 22;
+// let b = 23; // We can't do this
+b = 23;
+console.log(b)
+
+// const
+const c = 25;
+// c = 26; // We can't do this
+console.log(c)
