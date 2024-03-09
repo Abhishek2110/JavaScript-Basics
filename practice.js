@@ -117,3 +117,10 @@ console.log(filter(numbers, isOdd));
 
 // ES6 
 // display('Heelllooo');
+
+// Array Methods
+
+let arr = [1, 21, 11, 31, 41, 51];
+arr.push(71);
+arr.pop()
+console.log(arr)
