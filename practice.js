@@ -1,3 +1,5 @@
+// import { display } from './lib.js';
+
 // Functions in JS
 
 // Normal Function
@@ -112,3 +114,6 @@ function filter(numbers, fn) {
 let numbers = [1, 2, 4, 7, 3, 5, 6];
 
 console.log(filter(numbers, isOdd));
+
+// ES6 
+// display('Heelllooo');
