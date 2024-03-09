@@ -121,6 +121,17 @@ console.log(filter(numbers, isOdd));
 // Array Methods
 
 let arr = [1, 21, 11, 31, 41, 51];
-arr.push(71);
-arr.pop()
-console.log(arr)
+arr.push(71); // Push Method
+arr.pop();   // Pop Method
+console.log(arr);
+
+// String Methods
+
+let str = "        Hello! When are you reaching?       ";
+let result = str.trim();   // Trim Method
+console.log(result);
+
+const str1 = 'Hello';
+const substr = str1.slice(3);  // Slice Method
+console.log({ substr });
+
