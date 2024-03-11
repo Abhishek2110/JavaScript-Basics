@@ -257,3 +257,7 @@ power1(3);
 let power2 = power(3);
 power2(2);
 
+// Function chaining
+var fullName = "Abhishek";
+var reversed = fullName.split("").reverse().join("");
+console.log(reversed);
