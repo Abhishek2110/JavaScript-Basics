@@ -272,3 +272,15 @@ setTimeout(salary, 300);
 const mySalaries = [50, 40, 20, 300, 400];
 console.log(mySalaries.filter(n => n > 50));
 
+// Closures
+function greeting() {
+    let message = 'Hi';
+
+    function sayHi() {
+        console.log(message);
+    }
+
+    sayHi();
+}
+
+greeting();
