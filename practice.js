@@ -153,5 +153,14 @@ function getUsers() {
   });
 }
 
+// Promise Methods
 const promise = getUsers()
-console.log(promise);
+.then((users) => {
+  console.log(users);
+})
+.catch((error) => {
+  console.log(error);
+})
+.finally(() => {
+  console.log("Finally executed!");
+});
