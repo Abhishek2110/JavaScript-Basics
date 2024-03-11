@@ -261,3 +261,14 @@ power2(2);
 var fullName = "Abhishek";
 var reversed = fullName.split("").reverse().join("");
 console.log(reversed);
+
+// Higher order Function
+function salary(num){
+    return num * .7;
+}
+
+setTimeout(salary, 300);
+
+const mySalaries = [50, 40, 20, 300, 400];
+console.log(mySalaries.filter(n => n > 50));
+
